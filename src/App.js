@@ -1,8 +1,11 @@
 import './App.css';
+import GridDesign from './components/GridDesign';
 
 function App() {
   return (
-    <h1>hello grid design</h1>
+    <>
+      <GridDesign />
+    </>
   );
 }
 
