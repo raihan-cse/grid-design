@@ -1,3 +1,7 @@
+.grid_design_section {
+    margin: 2.4rem 0 5rem;
+    position: relative;
+}
 .section_heading {
     display        : flex;
     justify-content: space-between;
@@ -32,6 +36,23 @@
     grid-template-columns: auto auto auto auto auto;
     grid-gap                : 2.2rem;
     padding                 : 2.4rem 0 3.2rem;
+    position: relative;
+}
+.grid_container::before, .grid_container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.grid_container::before {
+    width: 100%;
+    height: 2px;
+    background: #CDD1D5;
+}
+.grid_container::after {
+    width: 25%;
+    height: 3px;
+    background: var(--dip-blue);
 }
 
 .grid_item,

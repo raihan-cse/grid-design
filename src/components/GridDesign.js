@@ -9,7 +9,7 @@ import BathIcon from '../assets/icons/bath.svg'
 
 function GridDesign() {
     return (
-        <section className="grd_design">
+        <section className="grid_design_section">
             <div className="container">
                 <div className="section_heading">
                     <h1>All Apartments</h1>
